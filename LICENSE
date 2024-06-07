@@ -1,0 +1,2550 @@
+The demo code here is MIT license.  The linked kewlui jar file and kewlui...js is closed source - see below.
+
+----------------------------------------------------------------------
+KewlUI:  Java demo  kewlui-demo-java
+
+MIT License
+
+Copyright (c) 2024 KewlUI
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+----------------------------------------------------------------------
+
+KewlUI:  Javascript and Java Libraries:
+
+    Copyright (c) 2024 KewlUI, GoFintec Ltd
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+    Notwithstanding the above, the final generated code from the Software may be used by the licensee. However, the licensee is expressly prohibited from reverse engineering, decompiling, or disassembling the Software, or disclosing the Software in source form to any third party.
+
+---------------------------------------------------------------------------
+-- Licenses of javascript libraries that may have been linked in or otherwise used in building
+
+@apideck/better-ajv-errors (0.3.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-build\node_modules\@apideck\better-ajv-errors\package.json
+@chakra-ui/react (2.8.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\@chakra-ui\react\package.json
+@emotion/react (11.11.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\@emotion\react\package.json
+@emotion/styled (11.11.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\@emotion\styled\package.json
+@jest/environment (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jest-environment-jsdom\node_modules\@jest\environment\package.json
+@jest/fake-timers (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jest-environment-jsdom\node_modules\@jest\fake-timers\package.json
+@jest/source-map (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jest-jasmine2\node_modules\@jest\source-map\package.json
+@jest/test-result (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jest-jasmine2\node_modules\@jest\test-result\package.json
+@tanstack/react-table (8.13.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\@tanstack\react-table\package.json
+@tanstack/react-virtual (3.1.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\@tanstack\react-virtual\package.json
+@testing-library/jest-dom (6.4.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\@testing-library\jest-dom\package.json
+@testing-library/react (14.2.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\@testing-library\react\package.json
+@testing-library/user-event (14.5.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\@testing-library\user-event\package.json
+abab (2.0.6) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\abab\package.json
+accepts (1.3.8) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\accepts\package.json
+acorn-globals (6.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\acorn-globals\package.json
+acorn-import-assertions (1.9.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\acorn-import-assertions\package.json
+acorn-jsx (5.3.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\acorn-jsx\package.json
+acorn-walk (7.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\acorn-walk\package.json
+acorn (7.4.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\acorn-globals\node_modules\acorn\package.json
+acorn (8.8.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\acorn\package.json
+address (1.2.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\address\package.json
+adjust-sourcemap-loader (4.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\adjust-sourcemap-loader\package.json
+agent-base (6.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\agent-base\package.json
+ajv-formats (2.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\ajv-formats\package.json
+ajv-keywords (3.5.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\ajv-keywords\package.json
+ajv-keywords (5.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\css-minimizer-webpack-plugin\node_modules\ajv-keywords\package.json
+ajv (6.12.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\ajv\package.json
+ajv (8.12.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\css-minimizer-webpack-plugin\node_modules\ajv\package.json
+alasql (4.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\alasql\package.json
+ansi-escapes (4.3.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\ansi-escapes\package.json
+ansi-html-community (0.0.8) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\ansi-html-community\package.json
+ansi-regex (5.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\ansi-regex\package.json
+ansi-regex (6.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-watch-typeahead\node_modules\strip-ansi\node_modules\ansi-regex\package.json
+ansi-styles (4.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\@testing-library\jest-dom\node_modules\ansi-styles\package.json
+ansi-styles (5.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\pretty-format\node_modules\ansi-styles\package.json
+any-promise (1.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\any-promise\package.json
+anymatch (3.1.3) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\anymatch\package.json
+apexcharts (3.45.2) ── MIT (http://www.opensource.org/licenses/mit-license.php), MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\apexcharts\package.json
+arg (5.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\arg\package.json
+argparse (2.0.1) ── Python License 2.0 (http://www.opensource.org/licenses/Python-2.0) ── node_modules\eslint\node_modules\argparse\package.json
+aria-query (5.1.3) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\aria-query\package.json
+array-buffer-byte-length (1.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\array-buffer-byte-length\package.json
+array-flatten (1.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\express\node_modules\array-flatten\package.json
+array-flatten (2.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\array-flatten\package.json
+array-includes (3.1.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\array-includes\package.json
+array-union (2.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\array-union\package.json
+array.prototype.flat (1.3.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\array.prototype.flat\package.json
+array.prototype.flatmap (1.3.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\array.prototype.flatmap\package.json
+array.prototype.tosorted (1.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\array.prototype.tosorted\package.json
+asap (2.0.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\asap\package.json
+ast-types-flow (0.0.7) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\ast-types-flow\package.json
+async (3.2.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\async\package.json
+asynckit (0.4.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\asynckit\package.json
+at-least-node (1.0.0) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\at-least-node\package.json
+autoprefixer (10.4.14) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\autoprefixer\package.json
+available-typed-arrays (1.0.5) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\available-typed-arrays\package.json
+axe-core (4.7.0) ── Mozilla Public License 2.0 (http://www.mozilla.org/MPL/2.0/, http://opensource.org/licenses/MPL-2.0) ── node_modules\axe-core\package.json
+axobject-query (3.1.1) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\axobject-query\package.json
+babel-jest (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\babel-jest\package.json
+babel-loader (8.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\babel-loader\package.json
+babel-plugin-istanbul (6.1.1) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\babel-plugin-istanbul\package.json
+babel-plugin-jest-hoist (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\babel-plugin-jest-hoist\package.json
+babel-plugin-macros (3.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\babel-plugin-macros\package.json
+babel-plugin-named-asset-import (0.3.8) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\babel-plugin-named-asset-import\package.json
+babel-plugin-transform-react-remove-prop-types (0.4.24) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\babel-plugin-transform-react-remove-prop-types\package.json
+babel-preset-current-node-syntax (1.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\babel-preset-current-node-syntax\package.json
+babel-preset-jest (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\babel-preset-jest\package.json
+babel-preset-react-app (10.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\babel-preset-react-app\package.json
+balanced-match (1.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\balanced-match\package.json
+batch (0.6.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\batch\package.json
+bfj (7.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\bfj\package.json
+big.js (5.2.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\big.js\package.json
+binary-extensions (2.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\binary-extensions\package.json
+bluebird (3.7.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\bluebird\package.json
+body-parser (1.20.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\body-parser\package.json
+bonjour-service (1.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\bonjour-service\package.json
+boolbase (1.0.0) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\boolbase\package.json
+brace-expansion (1.1.11) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\brace-expansion\package.json
+brace-expansion (2.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\filelist\node_modules\brace-expansion\package.json
+braces (3.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\braces\package.json
+browser-process-hrtime (1.0.0) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\browser-process-hrtime\package.json
+browserslist (4.23.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\browserslist\package.json
+bser (2.1.1) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\bser\package.json
+btoa (1.2.1) ── mit or apache 2.0 ── node_modules\btoa\package.json
+buffer-from (1.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\buffer-from\package.json
+bytes (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\bytes\package.json
+bytes (3.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\body-parser\node_modules\bytes\package.json
+call-bind (1.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\call-bind\package.json
+callsites (3.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\callsites\package.json
+camel-case (4.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\camel-case\package.json
+camelcase-css (2.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\camelcase-css\package.json
+camelcase (6.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\camelcase\package.json
+caniuse-api (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\caniuse-api\package.json
+caniuse-lite (1.0.30001591) ── Creative Commons Attribution 4.0 (http://creativecommons.org/licenses/by/4.0/legalcode) ── node_modules\caniuse-lite\package.json
+case-sensitive-paths-webpack-plugin (2.4.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\case-sensitive-paths-webpack-plugin\package.json
+chalk (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\@testing-library\jest-dom\node_modules\chalk\package.json
+chalk (4.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\babel-jest\node_modules\chalk\package.json
+char-regex (1.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\char-regex\package.json
+char-regex (2.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-watch-typeahead\node_modules\string-length\node_modules\char-regex\package.json
+check-types (11.2.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\check-types\package.json
+chokidar (3.5.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\chokidar\package.json
+chrome-trace-event (1.0.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\chrome-trace-event\package.json
+ci-info (3.8.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\ci-info\package.json
+cjs-module-lexer (1.2.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\cjs-module-lexer\package.json
+classnames (2.3.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\classnames\package.json
+clean-css (5.3.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\clean-css\package.json
+cliui (7.0.4) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\cliui\package.json
+clsx (1.2.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\clsx\package.json
+clsx (2.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-data-grid\node_modules\clsx\package.json
+co (4.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\co\package.json
+collect-v8-coverage (1.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\collect-v8-coverage\package.json
+color-convert (2.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\@testing-library\jest-dom\node_modules\color-convert\package.json
+color-name (1.1.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\@testing-library\jest-dom\node_modules\color-name\package.json
+colord (2.9.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\colord\package.json
+colorette (2.0.20) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\colorette\package.json
+combined-stream (1.0.8) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\combined-stream\package.json
+commander (2.20.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\terser\node_modules\commander\package.json
+commander (4.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\sucrase\node_modules\commander\package.json
+commander (7.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-svgo\node_modules\commander\package.json
+commander (8.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\commander\package.json
+common-tags (1.8.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\common-tags\package.json
+commondir (1.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\commondir\package.json
+component-emitter (1.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\component-emitter\package.json
+compressible (2.0.18) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\compressible\package.json
+compression (1.7.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\compression\package.json
+concat-map (0.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\concat-map\package.json
+confusing-browser-globals (1.0.11) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\confusing-browser-globals\package.json
+connect-history-api-fallback (2.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\connect-history-api-fallback\package.json
+content-disposition (0.5.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\content-disposition\package.json
+content-type (1.0.5) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\content-type\package.json
+convert-source-map (1.9.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\convert-source-map\package.json
+cookie-signature (1.0.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\cookie-signature\package.json
+cookie (0.5.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\cookie\package.json
+cookiejar (2.1.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\cookiejar\package.json
+core-js (3.30.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\core-js\package.json
+core-util-is (1.0.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\core-util-is\package.json
+cosmiconfig (6.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\fork-ts-checker-webpack-plugin\node_modules\cosmiconfig\package.json
+cosmiconfig (7.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\cosmiconfig\package.json
+cross-fetch (4.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\cross-fetch\package.json
+cross-spawn (7.0.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\cross-spawn\package.json
+crypto-random-string (2.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\crypto-random-string\package.json
+css-blank-pseudo (3.0.3) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\css-blank-pseudo\package.json
+css-declaration-sorter (6.4.0) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\css-declaration-sorter\package.json
+css-has-pseudo (3.0.4) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\css-has-pseudo\package.json
+css-loader (6.7.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\css-loader\package.json
+css-minimizer-webpack-plugin (3.4.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\css-minimizer-webpack-plugin\package.json
+css-prefers-color-scheme (6.0.3) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\css-prefers-color-scheme\package.json
+css-select (4.3.0) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\css-select\package.json
+css-tree (1.1.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-svgo\node_modules\css-tree\package.json
+css-what (6.1.0) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\css-what\package.json
+css.escape (1.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\css.escape\package.json
+cssdb (7.5.4) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\cssdb\package.json
+cssesc (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\cssesc\package.json
+cssnano-preset-default (5.2.14) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\cssnano-preset-default\package.json
+cssnano-utils (3.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\cssnano-utils\package.json
+cssnano (5.1.15) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\cssnano\package.json
+csso (4.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\csso\package.json
+cssom (0.3.8) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\cssstyle\node_modules\cssom\package.json
+cssom (0.4.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\cssom\package.json
+cssstyle (2.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\cssstyle\package.json
+damerau-levenshtein (1.0.8) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\damerau-levenshtein\package.json
+data-urls (2.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\data-urls\package.json
+debug (2.6.9) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\compression\node_modules\debug\package.json
+debug (3.2.7) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\eslint-plugin-import\node_modules\debug\package.json
+debug (4.3.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\debug\package.json
+decimal.js (10.4.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\decimal.js\package.json
+dedent (0.7.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\dedent\package.json
+deep-equal (2.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\deep-equal\package.json
+deep-is (0.1.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\deep-is\package.json
+deepmerge (4.3.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\deepmerge\package.json
+default-gateway (6.0.3) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\default-gateway\package.json
+define-lazy-prop (2.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\define-lazy-prop\package.json
+define-properties (1.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\define-properties\package.json
+delayed-stream (1.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\delayed-stream\package.json
+depd (1.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\serve-index\node_modules\depd\package.json
+depd (2.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\depd\package.json
+destroy (1.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\destroy\package.json
+detect-newline (3.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\detect-newline\package.json
+detect-node (2.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\detect-node\package.json
+detect-port-alt (1.1.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\detect-port-alt\package.json
+dezalgo (1.0.4) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\dezalgo\package.json
+didyoumean (1.2.2) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\didyoumean\package.json
+diff-sequences (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\diff-sequences\package.json
+dir-glob (3.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\dir-glob\package.json
+dlv (1.1.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\dlv\package.json
+dns-equal (1.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\dns-equal\package.json
+dns-packet (5.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\dns-packet\package.json
+doctrine (2.1.0) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\eslint-plugin-import\node_modules\doctrine\package.json
+doctrine (3.0.0) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\doctrine\package.json
+dom-accessibility-api (0.6.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\@testing-library\jest-dom\node_modules\dom-accessibility-api\package.json
+dom-converter (0.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\dom-converter\package.json
+dom-lib (3.1.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\dom-lib\package.json
+dom-serializer (1.4.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\dom-serializer\package.json
+domelementtype (2.3.0) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\domelementtype\package.json
+domexception (2.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\domexception\package.json
+domhandler (4.3.1) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\domhandler\package.json
+dompurify (3.0.9) ── mpl 2.0 or apache 2.0 ── node_modules\dompurify\package.json
+domutils (2.8.0) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\domutils\package.json
+dot-case (3.0.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\dot-case\package.json
+dotenv-expand (5.1.0) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\dotenv-expand\package.json
+dotenv (10.0.0) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\dotenv\package.json
+duplexer (0.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\duplexer\package.json
+ee-first (1.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\ee-first\package.json
+ejs (3.1.9) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\ejs\package.json
+electron-to-chromium (1.4.690) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\electron-to-chromium\package.json
+emittery (0.10.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-watch-typeahead\node_modules\emittery\package.json
+emittery (0.8.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\emittery\package.json
+emoji-regex (8.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\string-width\node_modules\emoji-regex\package.json
+emoji-regex (9.2.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\emoji-regex\package.json
+emojis-list (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\emojis-list\package.json
+encodeurl (1.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\encodeurl\package.json
+engine.io-client (6.5.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\engine.io-client\package.json
+engine.io-parser (5.2.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\engine.io-parser\package.json
+enhanced-resolve (5.15.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\enhanced-resolve\package.json
+entities (2.2.0) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\entities\package.json
+error-ex (1.3.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\error-ex\package.json
+es-abstract (1.21.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\es-abstract\package.json
+es-get-iterator (1.1.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\es-get-iterator\package.json
+es-module-lexer (1.2.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\es-module-lexer\package.json
+es-set-tostringtag (2.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\es-set-tostringtag\package.json
+es-shim-unscopables (1.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\es-shim-unscopables\package.json
+es-to-primitive (1.2.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\es-to-primitive\package.json
+escalade (3.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\escalade\package.json
+escape-html (1.0.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\escape-html\package.json
+escape-string-regexp (2.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\stack-utils\node_modules\escape-string-regexp\package.json
+escape-string-regexp (4.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\eslint\node_modules\escape-string-regexp\package.json
+escodegen (2.1.0) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\escodegen\package.json
+eslint-config-react-app (7.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\eslint-config-react-app\package.json
+eslint-import-resolver-node (0.3.7) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\eslint-import-resolver-node\package.json
+eslint-module-utils (2.8.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\eslint-module-utils\package.json
+eslint-plugin-flowtype (8.0.3) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\eslint-plugin-flowtype\package.json
+eslint-plugin-import (2.27.5) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\eslint-plugin-import\package.json
+eslint-plugin-jest (25.7.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\eslint-plugin-jest\package.json
+eslint-plugin-jsx-a11y (6.7.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\eslint-plugin-jsx-a11y\package.json
+eslint-plugin-react-hooks (4.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\eslint-plugin-react-hooks\package.json
+eslint-plugin-react (7.32.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\eslint-plugin-react\package.json
+eslint-plugin-testing-library (5.10.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\eslint-plugin-testing-library\package.json
+eslint-scope (5.1.1) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\webpack\node_modules\eslint-scope\package.json
+eslint-scope (7.2.0) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\eslint-scope\package.json
+eslint-visitor-keys (3.4.0) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\eslint-visitor-keys\package.json
+eslint-webpack-plugin (3.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\eslint-webpack-plugin\package.json
+eslint (8.39.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\eslint\package.json
+espree (9.5.1) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\espree\package.json
+esprima (4.0.1) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\esprima\package.json
+esquery (1.5.0) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\esquery\package.json
+esrecurse (4.3.0) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\esrecurse\package.json
+estraverse (4.3.0) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\webpack\node_modules\estraverse\package.json
+estraverse (5.3.0) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\estraverse\package.json
+esutils (2.0.3) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\esutils\package.json
+etag (1.8.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\etag\package.json
+eventemitter3 (4.0.7) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\eventemitter3\package.json
+events (3.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\events\package.json
+execa (5.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\execa\package.json
+exit (0.1.2) ── MIT (https://github.com/cowboy/node-exit/blob/master/LICENSE-MIT) ── node_modules\exit\package.json
+expect (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\expect\package.json
+express (4.18.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\express\package.json
+fast-deep-equal (3.1.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\fast-deep-equal\package.json
+fast-equals (4.0.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\fast-equals\package.json
+fast-glob (3.2.12) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\fast-glob\package.json
+fast-json-stable-stringify (2.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\fast-json-stable-stringify\package.json
+fast-levenshtein (2.0.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\fast-levenshtein\package.json
+fast-safe-stringify (2.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\fast-safe-stringify\package.json
+faye-websocket (0.11.4) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\faye-websocket\package.json
+fb-watchman (2.0.2) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\fb-watchman\package.json
+file-entry-cache (6.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\file-entry-cache\package.json
+file-loader (6.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\file-loader\package.json
+filelist (1.0.4) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\filelist\package.json
+filesize (8.0.7) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\filesize\package.json
+fill-range (7.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\fill-range\package.json
+finalhandler (1.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\finalhandler\package.json
+find-cache-dir (3.3.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\find-cache-dir\package.json
+find-up (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\pkg-up\node_modules\find-up\package.json
+find-up (4.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\pkg-dir\node_modules\find-up\package.json
+find-up (5.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\find-up\package.json
+flat-cache (3.0.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\flat-cache\package.json
+flatted (3.2.7) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\flatted\package.json
+follow-redirects (1.15.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\follow-redirects\package.json
+for-each (0.3.3) ── MIT (http://github.com/Raynos/for-each/raw/master/LICENSE), MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\for-each\package.json
+fork-ts-checker-webpack-plugin (6.5.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\fork-ts-checker-webpack-plugin\package.json
+form-data (3.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\form-data\package.json
+form-data (4.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\superagent\node_modules\form-data\package.json
+formidable (2.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\formidable\package.json
+forwarded (0.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\forwarded\package.json
+fraction.js (4.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\fraction.js\package.json
+framer-motion (11.0.8) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\framer-motion\package.json
+fresh (0.5.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\fresh\package.json
+fs-extra (10.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\fs-extra\package.json
+fs-extra (9.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\fork-ts-checker-webpack-plugin\node_modules\fs-extra\package.json
+fs-monkey (1.0.3) ── The Unlicense (http://unlicense.org/) ── node_modules\fs-monkey\package.json
+fs.realpath (1.0.0) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\fs.realpath\package.json
+function-bind (1.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\function-bind\package.json
+function.prototype.name (1.1.5) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\function.prototype.name\package.json
+functions-have-names (1.2.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\functions-have-names\package.json
+get-caller-file (2.0.5) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\get-caller-file\package.json
+get-intrinsic (1.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\get-intrinsic\package.json
+get-own-enumerable-property-symbols (3.0.2) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\get-own-enumerable-property-symbols\package.json
+get-stream (6.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\get-stream\package.json
+get-symbol-description (1.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\get-symbol-description\package.json
+glob-parent (5.1.2) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\chokidar\node_modules\glob-parent\package.json
+glob-parent (6.0.2) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\glob-parent\package.json
+glob-to-regexp (0.4.1) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\glob-to-regexp\package.json
+glob (7.1.6) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\sucrase\node_modules\glob\package.json
+glob (7.2.3) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\glob\package.json
+global-modules (2.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\global-modules\package.json
+global-prefix (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\global-prefix\package.json
+globals (13.20.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\eslint\node_modules\globals\package.json
+globalthis (1.0.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\globalthis\package.json
+globby (11.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\globby\package.json
+gopd (1.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\gopd\package.json
+graceful-fs (4.2.11) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\graceful-fs\package.json
+grapheme-splitter (1.0.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\grapheme-splitter\package.json
+gzip-size (6.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\gzip-size\package.json
+handle-thing (2.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\handle-thing\package.json
+harmony-reflect (1.6.2) ── apache 2.0 or mpl 1.1 ── node_modules\harmony-reflect\package.json
+has-bigints (1.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\has-bigints\package.json
+has-flag (4.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\@testing-library\jest-dom\node_modules\has-flag\package.json
+has-property-descriptors (1.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\has-property-descriptors\package.json
+has-proto (1.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\has-proto\package.json
+has-symbols (1.0.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\has-symbols\package.json
+has-tostringtag (1.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\has-tostringtag\package.json
+has (1.0.3) ── MIT (https://github.com/tarruda/has/blob/master/LICENSE-MIT), MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\has\package.json
+he (1.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\he\package.json
+hexoid (1.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\hexoid\package.json
+hoist-non-react-statics (3.3.2) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\hoist-non-react-statics\package.json
+hoopy (0.1.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\hoopy\package.json
+hpack.js (2.1.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\hpack.js\package.json
+html-encoding-sniffer (2.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\html-encoding-sniffer\package.json
+html-entities (2.3.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\html-entities\package.json
+html-minifier-terser (6.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\html-minifier-terser\package.json
+html-webpack-plugin (5.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\html-webpack-plugin\package.json
+htmlparser2 (6.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\htmlparser2\package.json
+http-deceiver (1.2.7) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\http-deceiver\package.json
+http-errors (1.6.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\serve-index\node_modules\http-errors\package.json
+http-errors (2.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\http-errors\package.json
+http-parser-js (0.5.8) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\http-parser-js\package.json
+http-proxy-agent (4.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\http-proxy-agent\package.json
+http-proxy-middleware (2.0.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\http-proxy-middleware\package.json
+http-proxy (1.18.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\http-proxy\package.json
+https-proxy-agent (5.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\https-proxy-agent\package.json
+human-signals (2.1.0) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\human-signals\package.json
+iconv-lite (0.4.24) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\whatwg-encoding\node_modules\iconv-lite\package.json
+iconv-lite (0.6.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\iconv-lite\package.json
+icss-utils (5.1.0) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\icss-utils\package.json
+idb (7.1.1) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\idb\package.json
+identity-obj-proxy (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\identity-obj-proxy\package.json
+ignore (5.2.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\ignore\package.json
+immer (9.0.21) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\immer\package.json
+import-fresh (3.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\import-fresh\package.json
+import-local (3.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\import-local\package.json
+imurmurhash (0.1.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\imurmurhash\package.json
+indent-string (4.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\indent-string\package.json
+inflight (1.0.6) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\inflight\package.json
+inherits (2.0.3) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\serve-index\node_modules\inherits\package.json
+inherits (2.0.4) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\inherits\package.json
+ini (1.3.8) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\ini\package.json
+internal-slot (1.0.5) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\internal-slot\package.json
+ipaddr.js (1.9.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\proxy-addr\node_modules\ipaddr.js\package.json
+ipaddr.js (2.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\ipaddr.js\package.json
+is-arguments (1.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-arguments\package.json
+is-array-buffer (3.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-array-buffer\package.json
+is-arrayish (0.2.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-arrayish\package.json
+is-bigint (1.0.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-bigint\package.json
+is-binary-path (2.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-binary-path\package.json
+is-boolean-object (1.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-boolean-object\package.json
+is-callable (1.2.7) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-callable\package.json
+is-core-module (2.12.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-core-module\package.json
+is-date-object (1.0.5) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-date-object\package.json
+is-docker (2.2.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-docker\package.json
+is-extglob (2.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-extglob\package.json
+is-fullwidth-code-point (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-fullwidth-code-point\package.json
+is-generator-fn (2.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-generator-fn\package.json
+is-glob (4.0.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-glob\package.json
+is-map (2.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-map\package.json
+is-negative-zero (2.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-negative-zero\package.json
+is-number-object (1.0.7) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-number-object\package.json
+is-number (7.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-number\package.json
+is-obj (1.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-obj\package.json
+is-path-inside (3.0.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-path-inside\package.json
+is-plain-obj (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-plain-obj\package.json
+is-potential-custom-element-name (1.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-potential-custom-element-name\package.json
+is-regex (1.1.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-regex\package.json
+is-regexp (1.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-regexp\package.json
+is-root (2.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-root\package.json
+is-set (2.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-set\package.json
+is-shared-array-buffer (1.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-shared-array-buffer\package.json
+is-stream (2.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-stream\package.json
+is-string (1.0.7) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-string\package.json
+is-symbol (1.0.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-symbol\package.json
+is-typed-array (1.1.10) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-typed-array\package.json
+is-weakmap (2.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-weakmap\package.json
+is-weakref (1.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-weakref\package.json
+is-weakset (2.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-weakset\package.json
+is-wsl (2.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\is-wsl\package.json
+isarray (1.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\hpack.js\node_modules\isarray\package.json
+isarray (2.0.5) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\isarray\package.json
+isexe (2.0.0) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\isexe\package.json
+istanbul-lib-coverage (3.2.0) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\istanbul-lib-coverage\package.json
+istanbul-lib-instrument (5.2.1) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\istanbul-lib-instrument\package.json
+jake (10.8.7) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\jake\package.json
+jest-circus (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-circus\package.json
+jest-cli (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-cli\package.json
+jest-config (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-config\package.json
+jest-diff (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-diff\package.json
+jest-docblock (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-docblock\package.json
+jest-each (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-each\package.json
+jest-environment-jsdom (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jest-environment-jsdom\package.json
+jest-environment-node (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-environment-node\package.json
+jest-get-type (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jest-get-type\package.json
+jest-haste-map (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jest-haste-map\package.json
+jest-jasmine2 (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jest-jasmine2\package.json
+jest-leak-detector (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-leak-detector\package.json
+jest-matcher-utils (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-matcher-utils\package.json
+jest-message-util (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-message-util\package.json
+jest-mock (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-mock\package.json
+jest-pnp-resolver (1.2.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jest-pnp-resolver\package.json
+jest-regex-util (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jest-regex-util\package.json
+jest-regex-util (28.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-watch-typeahead\node_modules\jest-regex-util\package.json
+jest-resolve (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jest-resolve\package.json
+jest-runner (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-runner\package.json
+jest-runtime (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-runtime\package.json
+jest-serializer (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jest-serializer\package.json
+jest-snapshot (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-snapshot\package.json
+jest-util (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jest-util\package.json
+jest-util (28.1.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-watch-typeahead\node_modules\jest-util\package.json
+jest-validate (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jest-validate\package.json
+jest-watch-typeahead (1.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-watch-typeahead\package.json
+jest-watcher (28.1.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-watch-typeahead\node_modules\jest-watcher\package.json
+jest-worker (26.6.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\rollup-plugin-terser\node_modules\jest-worker\package.json
+jest-worker (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jest-worker\package.json
+jest-worker (28.1.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\eslint-webpack-plugin\node_modules\jest-worker\package.json
+jest (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest\package.json
+jiti (1.18.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jiti\package.json
+js-sdsl (4.4.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\js-sdsl\package.json
+js-tokens (4.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\js-tokens\package.json
+js-yaml (4.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\eslint\node_modules\js-yaml\package.json
+jsdom (16.7.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jsdom\package.json
+json-parse-even-better-errors (2.3.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\json-parse-even-better-errors\package.json
+json-schema-traverse (0.4.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\json-schema-traverse\package.json
+json-schema-traverse (1.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\css-minimizer-webpack-plugin\node_modules\json-schema-traverse\package.json
+json-schema (0.4.0) ── afl 2.1 or bsd 3 clause ── node_modules\json-schema\package.json
+json-stable-stringify-without-jsonify (1.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\json-stable-stringify-without-jsonify\package.json
+json5 (1.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\tsconfig-paths\node_modules\json5\package.json
+json5 (2.2.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\json5\package.json
+jsonfile (6.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jsonfile\package.json
+jsonpointer (5.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jsonpointer\package.json
+jsx-ast-utils (3.3.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jsx-ast-utils\package.json
+kind-of (6.0.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\kind-of\package.json
+kleur (3.0.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\kleur\package.json
+klona (2.0.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\klona\package.json
+language-subtag-registry (0.3.22) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\language-subtag-registry\package.json
+language-tags (1.0.5) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\language-tags\package.json
+launch-editor (2.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\launch-editor\package.json
+leven (3.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\leven\package.json
+levn (0.4.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\levn\package.json
+lilconfig (2.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\lilconfig\package.json
+lines-and-columns (1.2.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\lines-and-columns\package.json
+loader-runner (4.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\loader-runner\package.json
+loader-utils (2.0.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\loader-utils\package.json
+loader-utils (3.2.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-dev-utils\node_modules\loader-utils\package.json
+locate-path (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\pkg-up\node_modules\locate-path\package.json
+locate-path (5.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\pkg-dir\node_modules\locate-path\package.json
+locate-path (6.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\locate-path\package.json
+lodash.memoize (4.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\lodash.memoize\package.json
+lodash.merge (4.6.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\lodash.merge\package.json
+lodash.sortby (4.7.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\lodash.sortby\package.json
+lodash.uniq (4.5.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\lodash.uniq\package.json
+lodash (4.17.21) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\lodash\package.json
+loose-envify (1.4.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\loose-envify\package.json
+lower-case (2.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\lower-case\package.json
+lru-cache (6.0.0) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\css-loader\node_modules\lru-cache\package.json
+luxon (3.4.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\luxon\package.json
+make-dir (3.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\make-dir\package.json
+makeerror (1.0.12) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\makeerror\package.json
+markdown-to-jsx (7.4.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\markdown-to-jsx\package.json
+mdn-data (2.0.14) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-svgo\node_modules\mdn-data\package.json
+media-typer (0.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\media-typer\package.json
+memfs (3.5.1) ── The Unlicense (http://unlicense.org/) ── node_modules\memfs\package.json
+merge-descriptors (1.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\merge-descriptors\package.json
+merge-stream (2.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\merge-stream\package.json
+merge2 (1.4.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\merge2\package.json
+methods (1.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\methods\package.json
+micromatch (4.0.5) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\micromatch\package.json
+mime-db (1.52.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\mime-db\package.json
+mime-types (2.1.35) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\mime-types\package.json
+mime (1.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\mime\package.json
+mime (2.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\superagent\node_modules\mime\package.json
+mimic-fn (2.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\mimic-fn\package.json
+min-indent (1.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\min-indent\package.json
+mini-css-extract-plugin (2.7.5) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\mini-css-extract-plugin\package.json
+minimalistic-assert (1.0.1) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\minimalistic-assert\package.json
+minimatch (3.1.2) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\minimatch\package.json
+minimatch (5.1.6) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\filelist\node_modules\minimatch\package.json
+minimist (1.2.8) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\minimist\package.json
+mkdirp (0.5.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\mkdirp\package.json
+mobx-react-lite (4.0.5) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\mobx-react-lite\package.json
+mobx-react (9.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\mobx-react\package.json
+mobx (6.12.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\mobx\package.json
+ms (2.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\compression\node_modules\ms\package.json
+ms (2.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\ms\package.json
+ms (2.1.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\send\node_modules\ms\package.json
+multicast-dns (7.2.5) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\multicast-dns\package.json
+mz (2.7.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\mz\package.json
+nanoid (3.3.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\nanoid\package.json
+natural-compare (1.4.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\natural-compare\package.json
+negotiator (0.6.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\negotiator\package.json
+neo-async (2.6.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\neo-async\package.json
+no-case (3.0.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\no-case\package.json
+node-fetch (2.7.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\node-fetch\package.json
+node-forge (1.3.1) ── bsd 3 clause or gpl 2.0 ── node_modules\node-forge\package.json
+node-int64 (0.4.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\node-int64\package.json
+node-releases (2.0.14) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\node-releases\package.json
+normalize-path (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\normalize-path\package.json
+normalize-range (0.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\normalize-range\package.json
+normalize-url (6.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\normalize-url\package.json
+npm-run-path (4.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\npm-run-path\package.json
+nth-check (2.1.1) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\nth-check\package.json
+nwsapi (2.2.7) ── MIT (http://javascript.nwbox.com/nwsapi/MIT-LICENSE), MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\nwsapi\package.json
+object-assign (4.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\object-assign\package.json
+object-hash (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\object-hash\package.json
+object-inspect (1.12.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\object-inspect\package.json
+object-is (1.1.5) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\object-is\package.json
+object-keys (1.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\object-keys\package.json
+object.assign (4.1.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\object.assign\package.json
+object.entries (1.1.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\object.entries\package.json
+object.fromentries (2.0.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\object.fromentries\package.json
+object.hasown (1.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\object.hasown\package.json
+object.values (1.1.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\object.values\package.json
+obuf (1.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\obuf\package.json
+on-finished (2.4.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\on-finished\package.json
+on-headers (1.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\on-headers\package.json
+once (1.4.0) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\once\package.json
+onetime (5.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\onetime\package.json
+open (7.4.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\source-map-explorer\node_modules\open\package.json
+open (8.4.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\open\package.json
+optionator (0.9.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\optionator\package.json
+p-limit (2.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\pkg-dir\node_modules\p-limit\package.json
+p-limit (3.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\p-limit\package.json
+p-locate (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\pkg-up\node_modules\p-locate\package.json
+p-locate (4.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\pkg-dir\node_modules\p-locate\package.json
+p-locate (5.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\p-locate\package.json
+p-retry (4.6.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\p-retry\package.json
+p-try (2.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\p-try\package.json
+param-case (3.0.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\param-case\package.json
+parent-module (1.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\parent-module\package.json
+parse-json (5.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\parse-json\package.json
+parse5 (6.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\parse5\package.json
+parseurl (1.3.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\parseurl\package.json
+pascal-case (3.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\pascal-case\package.json
+path-exists (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\pkg-up\node_modules\path-exists\package.json
+path-exists (4.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\path-exists\package.json
+path-is-absolute (1.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\path-is-absolute\package.json
+path-key (3.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\path-key\package.json
+path-parse (1.0.7) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\path-parse\package.json
+path-to-regexp (0.1.7) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\path-to-regexp\package.json
+path-type (4.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\path-type\package.json
+performance-now (2.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\performance-now\package.json
+picocolors (0.2.1) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\resolve-url-loader\node_modules\picocolors\package.json
+picocolors (1.0.0) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\picocolors\package.json
+picomatch (2.3.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\picomatch\package.json
+pify (2.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\pify\package.json
+pirates (4.0.5) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\pirates\package.json
+pkg-dir (4.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\pkg-dir\package.json
+pkg-up (3.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\pkg-up\package.json
+postcss-attribute-case-insensitive (5.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-attribute-case-insensitive\package.json
+postcss-browser-comments (4.0.0) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-browser-comments\package.json
+postcss-calc (8.2.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-calc\package.json
+postcss-clamp (4.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-clamp\package.json
+postcss-color-functional-notation (4.2.4) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-color-functional-notation\package.json
+postcss-color-hex-alpha (8.0.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-color-hex-alpha\package.json
+postcss-color-rebeccapurple (7.1.1) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-color-rebeccapurple\package.json
+postcss-colormin (5.3.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-colormin\package.json
+postcss-convert-values (5.1.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-convert-values\package.json
+postcss-custom-media (8.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-custom-media\package.json
+postcss-custom-properties (12.1.11) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-custom-properties\package.json
+postcss-custom-selectors (6.0.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-custom-selectors\package.json
+postcss-dir-pseudo-class (6.0.5) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-dir-pseudo-class\package.json
+postcss-discard-comments (5.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-discard-comments\package.json
+postcss-discard-duplicates (5.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-discard-duplicates\package.json
+postcss-discard-empty (5.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-discard-empty\package.json
+postcss-discard-overridden (5.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-discard-overridden\package.json
+postcss-double-position-gradients (3.1.2) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-double-position-gradients\package.json
+postcss-env-function (4.0.6) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-env-function\package.json
+postcss-flexbugs-fixes (5.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-flexbugs-fixes\package.json
+postcss-focus-visible (6.0.4) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-focus-visible\package.json
+postcss-focus-within (5.0.4) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-focus-within\package.json
+postcss-font-variant (5.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-font-variant\package.json
+postcss-gap-properties (3.0.5) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-gap-properties\package.json
+postcss-image-set-function (4.0.7) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-image-set-function\package.json
+postcss-import (14.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-import\package.json
+postcss-initial (4.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-initial\package.json
+postcss-js (4.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-js\package.json
+postcss-lab-function (4.2.1) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-lab-function\package.json
+postcss-load-config (3.1.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-load-config\package.json
+postcss-loader (6.2.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-loader\package.json
+postcss-logical (5.0.4) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-logical\package.json
+postcss-media-minmax (5.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-media-minmax\package.json
+postcss-merge-longhand (5.1.7) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-merge-longhand\package.json
+postcss-merge-rules (5.1.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-merge-rules\package.json
+postcss-minify-font-values (5.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-minify-font-values\package.json
+postcss-minify-gradients (5.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-minify-gradients\package.json
+postcss-minify-params (5.1.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-minify-params\package.json
+postcss-minify-selectors (5.2.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-minify-selectors\package.json
+postcss-modules-extract-imports (3.0.0) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\postcss-modules-extract-imports\package.json
+postcss-modules-local-by-default (4.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-modules-local-by-default\package.json
+postcss-modules-scope (3.0.0) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\postcss-modules-scope\package.json
+postcss-modules-values (4.0.0) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\postcss-modules-values\package.json
+postcss-nested (6.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-nested\package.json
+postcss-nesting (10.2.0) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-nesting\package.json
+postcss-normalize-charset (5.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-normalize-charset\package.json
+postcss-normalize-display-values (5.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-normalize-display-values\package.json
+postcss-normalize-positions (5.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-normalize-positions\package.json
+postcss-normalize-repeat-style (5.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-normalize-repeat-style\package.json
+postcss-normalize-string (5.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-normalize-string\package.json
+postcss-normalize-timing-functions (5.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-normalize-timing-functions\package.json
+postcss-normalize-unicode (5.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-normalize-unicode\package.json
+postcss-normalize-url (5.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-normalize-url\package.json
+postcss-normalize-whitespace (5.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-normalize-whitespace\package.json
+postcss-normalize (10.0.1) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-normalize\package.json
+postcss-opacity-percentage (1.1.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-opacity-percentage\package.json
+postcss-ordered-values (5.1.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-ordered-values\package.json
+postcss-overflow-shorthand (3.0.4) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-overflow-shorthand\package.json
+postcss-page-break (3.0.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-page-break\package.json
+postcss-place (7.0.5) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-place\package.json
+postcss-preset-env (7.8.3) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-preset-env\package.json
+postcss-pseudo-class-any-link (7.1.6) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\postcss-pseudo-class-any-link\package.json
+postcss-reduce-initial (5.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-reduce-initial\package.json
+postcss-reduce-transforms (5.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-reduce-transforms\package.json
+postcss-replace-overflow-wrap (4.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-replace-overflow-wrap\package.json
+postcss-selector-not (6.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-selector-not\package.json
+postcss-selector-parser (6.0.11) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-selector-parser\package.json
+postcss-svgo (5.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-svgo\package.json
+postcss-unique-selectors (5.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-unique-selectors\package.json
+postcss-value-parser (4.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-value-parser\package.json
+postcss (7.0.39) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\resolve-url-loader\node_modules\postcss\package.json
+postcss (8.4.23) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss\package.json
+prelude-ls (1.2.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\prelude-ls\package.json
+pretty-bytes (5.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\pretty-bytes\package.json
+pretty-error (4.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\pretty-error\package.json
+pretty-format (27.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\pretty-format\package.json
+prismjs (1.29.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\prismjs\package.json
+process-nextick-args (2.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\process-nextick-args\package.json
+promise (8.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\promise\package.json
+prompts (2.4.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\prompts\package.json
+prop-types (15.8.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\prop-types\package.json
+proxy-addr (2.0.7) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\proxy-addr\package.json
+psl (1.9.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\psl\package.json
+punycode (2.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\punycode\package.json
+qs (6.11.0) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\qs\package.json
+querystring (0.2.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\querystring\package.json
+querystringify (2.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\querystringify\package.json
+quick-lru (5.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\quick-lru\package.json
+raf (3.4.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\raf\package.json
+randombytes (2.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\randombytes\package.json
+range-parser (1.2.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\range-parser\package.json
+raw-body (2.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\raw-body\package.json
+react-apexcharts (1.4.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-apexcharts\package.json
+react-app-polyfill (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-app-polyfill\package.json
+react-data-grid (7.0.0-beta.42) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-data-grid\package.json
+react-dev-utils (12.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-dev-utils\package.json
+react-dom (18.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-dom\package.json
+react-draggable (4.4.5) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-draggable\package.json
+react-error-overlay (6.0.11) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-error-overlay\package.json
+react-grid-layout (1.4.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-grid-layout\package.json
+react-icons (5.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-icons\package.json
+react-intersection-observer (9.8.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-intersection-observer\package.json
+react-is (16.13.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\hoist-non-react-statics\node_modules\react-is\package.json
+react-is (17.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-is\package.json
+react-refresh (0.11.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-refresh\package.json
+react-resizable (3.0.5) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-resizable\package.json
+react-scripts (5.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\package.json
+react-smooth-dnd (0.11.1) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\react-smooth-dnd\package.json
+react (18.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react\package.json
+read-cache (1.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\read-cache\package.json
+readable-stream (2.3.8) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\hpack.js\node_modules\readable-stream\package.json
+readable-stream (3.6.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\readable-stream\package.json
+readdirp (3.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\readdirp\package.json
+recursive-readdir (2.2.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\recursive-readdir\package.json
+redent (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\redent\package.json
+regenerator-runtime (0.13.11) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\regenerator-runtime\package.json
+regex-parser (2.2.11) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\regex-parser\package.json
+regexp.prototype.flags (1.5.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\regexp.prototype.flags\package.json
+relateurl (0.2.7) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\relateurl\package.json
+renderkid (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\renderkid\package.json
+require-directory (2.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\require-directory\package.json
+require-from-string (2.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\require-from-string\package.json
+requires-port (1.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\requires-port\package.json
+resize-observer-polyfill (1.5.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\resize-observer-polyfill\package.json
+resolve-cwd (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\resolve-cwd\package.json
+resolve-from (4.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\import-fresh\node_modules\resolve-from\package.json
+resolve-from (5.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\resolve-from\package.json
+resolve-url-loader (4.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\resolve-url-loader\package.json
+resolve.exports (1.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\resolve.exports\package.json
+resolve (1.22.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\resolve\package.json
+resolve (2.0.0-next.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\eslint-plugin-react\node_modules\resolve\package.json
+retry (0.13.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\retry\package.json
+rimraf (2.6.3) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\temp\node_modules\rimraf\package.json
+rimraf (3.0.2) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\rimraf\package.json
+rollup-plugin-terser (7.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\rollup-plugin-terser\package.json
+rollup (2.79.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\rollup\package.json
+rsuite-table (5.18.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\rsuite-table\package.json
+safe-buffer (5.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\compression\node_modules\safe-buffer\package.json
+safe-buffer (5.2.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\safe-buffer\package.json
+safe-regex-test (1.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\safe-regex-test\package.json
+safer-buffer (2.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\safer-buffer\package.json
+sanitize.css (13.0.0) ── Creative Commons Zero v1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/legalcode) ── node_modules\sanitize.css\package.json
+sass-loader (12.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\sass-loader\package.json
+saxes (5.0.1) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\saxes\package.json
+scheduler (0.23.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\scheduler\package.json
+schema-utils (2.7.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\fork-ts-checker-webpack-plugin\node_modules\schema-utils\package.json
+schema-utils (2.7.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\schema-utils\package.json
+schema-utils (3.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\schema-utils\package.json
+schema-utils (4.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\css-minimizer-webpack-plugin\node_modules\schema-utils\package.json
+select-hose (2.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\select-hose\package.json
+selfsigned (2.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\selfsigned\package.json
+semver (6.3.1) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\semver\package.json
+semver (7.5.3) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\css-loader\node_modules\semver\package.json
+send (0.18.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\send\package.json
+serialize-javascript (4.0.0) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\rollup-plugin-terser\node_modules\serialize-javascript\package.json
+serialize-javascript (6.0.2) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\serialize-javascript\package.json
+serve-index (1.9.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\serve-index\package.json
+serve-static (1.15.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\serve-static\package.json
+setprototypeof (1.1.0) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\serve-index\node_modules\setprototypeof\package.json
+setprototypeof (1.2.0) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\setprototypeof\package.json
+shebang-command (2.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\shebang-command\package.json
+shebang-regex (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\shebang-regex\package.json
+shell-quote (1.8.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\shell-quote\package.json
+side-channel (1.0.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\side-channel\package.json
+signal-exit (3.0.7) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\signal-exit\package.json
+sisteransi (1.0.5) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\sisteransi\package.json
+slash (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\slash\package.json
+slash (4.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-watch-typeahead\node_modules\slash\package.json
+smooth-dnd (0.12.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\smooth-dnd\package.json
+socket.io-client (4.7.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\socket.io-client\package.json
+socket.io-parser (4.2.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\socket.io-parser\package.json
+sockjs (0.3.24) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\sockjs\package.json
+source-list-map (2.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\source-list-map\package.json
+source-map-explorer (2.5.3) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\source-map-explorer\package.json
+source-map-js (1.0.2) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\source-map-js\package.json
+source-map-loader (3.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\source-map-loader\package.json
+source-map-support (0.5.21) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\source-map-support\package.json
+source-map (0.6.1) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\postcss-svgo\node_modules\source-map\package.json
+source-map (0.7.4) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\source-map\package.json
+source-map (0.8.0-beta.0) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\workbox-build\node_modules\source-map\package.json
+spdy-transport (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\spdy-transport\package.json
+spdy (4.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\spdy\package.json
+sprintf-js (1.1.3) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\sprintf-js\package.json
+stable (0.1.8) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\stable\package.json
+stack-utils (2.0.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\stack-utils\package.json
+statuses (1.5.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\serve-index\node_modules\statuses\package.json
+statuses (2.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\statuses\package.json
+stop-iteration-iterator (1.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\stop-iteration-iterator\package.json
+string-length (4.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-watch-typeahead\node_modules\jest-watcher\node_modules\string-length\package.json
+string-length (5.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-watch-typeahead\node_modules\string-length\package.json
+string-natural-compare (3.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\string-natural-compare\package.json
+string-width (4.2.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\string-width\package.json
+string.prototype.matchall (4.0.8) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\string.prototype.matchall\package.json
+string.prototype.trim (1.2.7) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\string.prototype.trim\package.json
+string.prototype.trimend (1.0.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\string.prototype.trimend\package.json
+string.prototype.trimstart (1.0.6) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\string.prototype.trimstart\package.json
+string_decoder (1.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\hpack.js\node_modules\string_decoder\package.json
+string_decoder (1.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\string_decoder\package.json
+stringify-object (3.3.0) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\stringify-object\package.json
+strip-ansi (6.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\strip-ansi\package.json
+strip-ansi (7.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\react-scripts\node_modules\jest-watch-typeahead\node_modules\strip-ansi\package.json
+strip-bom (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\tsconfig-paths\node_modules\strip-bom\package.json
+strip-bom (4.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\strip-bom\package.json
+strip-comments (2.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\strip-comments\package.json
+strip-final-newline (2.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\strip-final-newline\package.json
+strip-indent (3.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\strip-indent\package.json
+strip-json-comments (3.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\strip-json-comments\package.json
+style-loader (3.3.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\style-loader\package.json
+stylehacks (5.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\stylehacks\package.json
+sucrase (3.32.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\sucrase\package.json
+superagent (8.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\superagent\package.json
+supports-color (7.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\@testing-library\jest-dom\node_modules\supports-color\package.json
+supports-color (8.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jest-worker\node_modules\supports-color\package.json
+supports-preserve-symlinks-flag (1.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\supports-preserve-symlinks-flag\package.json
+svg.draggable.js (2.2.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\svg.draggable.js\package.json
+svg.easing.js (2.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\svg.easing.js\package.json
+svg.filter.js (2.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\svg.filter.js\package.json
+svg.js (2.7.1) ── MIT (http://www.opensource.org/licenses/mit-license.php), MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\svg.js\package.json
+svg.pathmorphing.js (0.1.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\svg.pathmorphing.js\package.json
+svg.resize.js (1.4.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\svg.resize.js\package.json
+svg.select.js (2.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\svg.select.js\package.json
+svg.select.js (3.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\apexcharts\node_modules\svg.select.js\package.json
+svgo (2.8.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\postcss-svgo\node_modules\svgo\package.json
+symbol-tree (3.2.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\symbol-tree\package.json
+tailwindcss (3.3.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\tailwindcss\package.json
+tapable (1.1.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\fork-ts-checker-webpack-plugin\node_modules\tapable\package.json
+tapable (2.2.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\tapable\package.json
+temp-dir (2.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\temp-dir\package.json
+temp (0.9.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\temp\package.json
+tempy (0.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\tempy\package.json
+terser-webpack-plugin (5.3.10) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\terser-webpack-plugin\package.json
+terser (5.28.1) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\terser\package.json
+test-exclude (6.0.0) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\test-exclude\package.json
+text-table (0.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\text-table\package.json
+thenify-all (1.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\thenify-all\package.json
+thenify (3.3.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\thenify\package.json
+throat (6.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\throat\package.json
+thunky (1.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\thunky\package.json
+tmpl (1.0.5) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\tmpl\package.json
+to-regex-range (5.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\to-regex-range\package.json
+toidentifier (1.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\toidentifier\package.json
+tough-cookie (4.1.3) ── BSD 3-clause "New" or "Revised" License (http://www.opensource.org/licenses/BSD-3-Clause) ── node_modules\tough-cookie\package.json
+tr46 (0.0.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\tr46\package.json
+tr46 (1.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-build\node_modules\tr46\package.json
+tr46 (2.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\data-urls\node_modules\tr46\package.json
+tryer (1.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\tryer\package.json
+ts-interface-checker (0.1.13) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\ts-interface-checker\package.json
+tsconfig-paths (3.14.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\tsconfig-paths\package.json
+tslib (2.5.0) ── BSD Zero Clause License (http://landley.net/toybox/license.html ) ── node_modules\tslib\package.json
+type-check (0.4.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\type-check\package.json
+type-fest (0.16.0) ── mit or cc0 1.0 ── node_modules\tempy\node_modules\type-fest\package.json
+type-fest (0.20.2) ── mit or cc0 1.0 ── node_modules\eslint\node_modules\type-fest\package.json
+type-fest (0.21.3) ── mit or cc0 1.0 ── node_modules\type-fest\package.json
+type-is (1.6.18) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\type-is\package.json
+typed-array-length (1.0.4) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\typed-array-length\package.json
+unbox-primitive (1.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\unbox-primitive\package.json
+unique-string (2.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\unique-string\package.json
+universalify (0.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\tough-cookie\node_modules\universalify\package.json
+universalify (2.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\universalify\package.json
+unpipe (1.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\unpipe\package.json
+upath (1.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\upath\package.json
+update-browserslist-db (1.0.13) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\update-browserslist-db\package.json
+uri-js (4.4.1) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\uri-js\package.json
+url-parse (1.5.10) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\url-parse\package.json
+use-sync-external-store (1.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\use-sync-external-store\package.json
+util-deprecate (1.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\util-deprecate\package.json
+utila (0.4.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\utila\package.json
+utils-merge (1.0.1) ── MIT (http://opensource.org/licenses/MIT), MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\utils-merge\package.json
+uuid (8.3.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\uuid\package.json
+vary (1.1.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\vary\package.json
+visual-glue-app (0.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── LICENSE.txt
+w3c-hr-time (1.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\w3c-hr-time\package.json
+w3c-xmlserializer (2.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\w3c-xmlserializer\package.json
+walker (1.0.8) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\walker\package.json
+watchpack (2.4.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\watchpack\package.json
+wbuf (1.7.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\wbuf\package.json
+web-vitals (3.5.2) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\web-vitals\package.json
+webidl-conversions (3.0.1) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\webidl-conversions\package.json
+webidl-conversions (4.0.2) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\workbox-build\node_modules\webidl-conversions\package.json
+webidl-conversions (5.0.0) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\domexception\node_modules\webidl-conversions\package.json
+webidl-conversions (6.1.0) ── BSD 2-clause "Simplified" License (http://www.opensource.org/licenses/BSD-2-Clause) ── node_modules\data-urls\node_modules\webidl-conversions\package.json
+webpack-dev-middleware (5.3.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\webpack-dev-middleware\package.json
+webpack-dev-server (4.13.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\webpack-dev-server\package.json
+webpack-manifest-plugin (4.1.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\webpack-manifest-plugin\package.json
+webpack-sources (1.4.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-webpack-plugin\node_modules\webpack-sources\package.json
+webpack-sources (2.3.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\webpack-manifest-plugin\node_modules\webpack-sources\package.json
+webpack-sources (3.2.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\webpack-sources\package.json
+webpack (5.90.3) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\webpack\package.json
+websocket-driver (0.7.4) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\websocket-driver\package.json
+websocket-extensions (0.1.4) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\websocket-extensions\package.json
+whatwg-encoding (1.0.5) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\whatwg-encoding\package.json
+whatwg-fetch (3.6.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\whatwg-fetch\package.json
+whatwg-mimetype (2.3.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\whatwg-mimetype\package.json
+whatwg-url (5.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\whatwg-url\package.json
+whatwg-url (7.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-build\node_modules\whatwg-url\package.json
+whatwg-url (8.7.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\data-urls\node_modules\whatwg-url\package.json
+which-boxed-primitive (1.0.2) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\which-boxed-primitive\package.json
+which-collection (1.0.1) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\which-collection\package.json
+which-typed-array (1.1.9) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\which-typed-array\package.json
+which (1.3.1) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\global-prefix\node_modules\which\package.json
+which (2.0.2) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\which\package.json
+workbox-background-sync (6.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-background-sync\package.json
+workbox-broadcast-update (6.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-broadcast-update\package.json
+workbox-build (6.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-build\package.json
+workbox-cacheable-response (6.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-cacheable-response\package.json
+workbox-core (6.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-core\package.json
+workbox-expiration (6.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-expiration\package.json
+workbox-google-analytics (6.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-google-analytics\package.json
+workbox-navigation-preload (6.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-navigation-preload\package.json
+workbox-precaching (6.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-precaching\package.json
+workbox-range-requests (6.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-range-requests\package.json
+workbox-recipes (6.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-recipes\package.json
+workbox-routing (6.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-routing\package.json
+workbox-strategies (6.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-strategies\package.json
+workbox-streams (6.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-streams\package.json
+workbox-sw (6.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-sw\package.json
+workbox-webpack-plugin (6.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-webpack-plugin\package.json
+workbox-window (6.6.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\workbox-window\package.json
+wrap-ansi (7.0.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\wrap-ansi\package.json
+wrappy (1.0.2) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\wrappy\package.json
+ws (7.5.9) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\jsdom\node_modules\ws\package.json
+ws (8.11.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\engine.io-client\node_modules\ws\package.json
+ws (8.13.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\ws\package.json
+xml-name-validator (3.0.0) ── Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0, http://www.opensource.org/licenses/Apache-2.0) ── node_modules\xml-name-validator\package.json
+xmlchars (2.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\xmlchars\package.json
+xmlhttprequest-ssl (2.0.0) ── MIT (http://creativecommons.org/licenses/MIT/) ── node_modules\xmlhttprequest-ssl\package.json
+y18n (5.0.8) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\y18n\package.json
+yallist (4.0.0) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\css-loader\node_modules\yallist\package.json
+yaml (1.10.2) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\yaml\package.json
+yargs-parser (20.2.9) ── ISC License (http://www.isc.org/software/license, http://www.opensource.org/licenses/ISC) ── node_modules\yargs-parser\package.json
+yargs (16.2.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\yargs\package.json
+yocto-queue (0.1.0) ── MIT License (http://www.opensource.org/licenses/MIT) ── node_modules\yocto-queue\package.json
+
+
+---------------------------------------------------------------------------
+-- Licenses of java libraries that may have been linked in or otherwise used in building
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<licenseSummary>
+  <dependencies>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.4.7</version>
+      <licenses>
+        <license>
+          <name>Eclipse Public License - v 1.0</name>
+          <url>http://www.eclipse.org/legal/epl-v10.html</url>
+          <file>eclipse public license - v 1.0 - epl-v10.html</file>
+        </license>
+        <license>
+          <name>GNU Lesser General Public License</name>
+          <url>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</url>
+          <file>gnu lesser general public license - lgpl-2.1.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-core</artifactId>
+      <version>1.4.7</version>
+      <licenses>
+        <license>
+          <name>Eclipse Public License - v 1.0</name>
+          <url>http://www.eclipse.org/legal/epl-v10.html</url>
+          <file>eclipse public license - v 1.0 - epl-v10.html</file>
+        </license>
+        <license>
+          <name>GNU Lesser General Public License</name>
+          <url>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</url>
+          <file>gnu lesser general public license - lgpl-2.1.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>com.corundumstudio.socketio</groupId>
+      <artifactId>netty-socketio</artifactId>
+      <version>1.7.25</version>
+      <licenses>
+        <license>
+          <name>Apache v2</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+          <distribution>manual</distribution>
+          <file>apache v2 - license-2.0.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>2.15.0</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.15.0</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.14.2</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jdk8</artifactId>
+      <version>2.15.0</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jsr310</artifactId>
+      <version>2.15.0</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.module</groupId>
+      <artifactId>jackson-module-parameter-names</artifactId>
+      <version>2.15.0</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml</groupId>
+      <artifactId>classmate</artifactId>
+      <version>1.5.1</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>com.jayway.jsonpath</groupId>
+      <artifactId>json-path</artifactId>
+      <version>2.8.0</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>4.11.0</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okio</groupId>
+      <artifactId>okio-jvm</artifactId>
+      <version>3.2.0</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okio</groupId>
+      <artifactId>okio</artifactId>
+      <version>3.2.0</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.istack</groupId>
+      <artifactId>istack-commons-runtime</artifactId>
+      <version>4.1.1</version>
+      <licenses>
+        <license>
+          <name>Eclipse Distribution License - v 1.0</name>
+          <url>http://www.eclipse.org/org/documents/edl-v10.php</url>
+          <distribution>repo</distribution>
+          <file>eclipse distribution license - v 1.0 - edl-v10.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>com.vaadin.external.google</groupId>
+      <artifactId>android-json</artifactId>
+      <version>0.0.20131108.vaadin1</version>
+      <licenses>
+        <license>
+          <name>Apache License 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+          <distribution>repo</distribution>
+          <file>apache license 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>com.zaxxer</groupId>
+      <artifactId>HikariCP</artifactId>
+      <version>5.0.1</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.micrometer</groupId>
+      <artifactId>micrometer-commons</artifactId>
+      <version>1.11.0</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.micrometer</groupId>
+      <artifactId>micrometer-observation</artifactId>
+      <version>1.11.0</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-buffer</artifactId>
+      <version>4.1.92.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec-dns</artifactId>
+      <version>4.1.92.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec-http2</artifactId>
+      <version>4.1.92.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec-http</artifactId>
+      <version>4.1.92.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec-socks</artifactId>
+      <version>4.1.92.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec</artifactId>
+      <version>4.1.92.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-common</artifactId>
+      <version>4.1.92.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-handler-proxy</artifactId>
+      <version>4.1.92.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-handler</artifactId>
+      <version>4.1.92.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-resolver-dns-classes-macos</artifactId>
+      <version>4.1.92.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-resolver-dns-native-macos</artifactId>
+      <version>4.1.92.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-resolver-dns</artifactId>
+      <version>4.1.92.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-resolver</artifactId>
+      <version>4.1.92.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-transport-classes-epoll</artifactId>
+      <version>4.1.92.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-transport-native-epoll</artifactId>
+      <version>4.1.92.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-transport-native-unix-common</artifactId>
+      <version>4.1.92.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-transport</artifactId>
+      <version>4.1.92.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.projectreactor.netty</groupId>
+      <artifactId>reactor-netty-core</artifactId>
+      <version>1.1.7</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.projectreactor.netty</groupId>
+      <artifactId>reactor-netty-http</artifactId>
+      <version>1.1.7</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.projectreactor</groupId>
+      <artifactId>reactor-core</artifactId>
+      <version>3.5.6</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.smallrye</groupId>
+      <artifactId>jandex</artifactId>
+      <version>3.0.5</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>io.swagger.core.v3</groupId>
+      <artifactId>swagger-annotations</artifactId>
+      <version>2.2.10</version>
+      <licenses>
+        <license>
+          <name>Apache License 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+          <distribution>repo</distribution>
+          <file>apache v2 - license-2.0.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>jakarta.activation</groupId>
+      <artifactId>jakarta.activation-api</artifactId>
+      <version>2.1.2</version>
+      <licenses>
+        <license>
+          <name>EDL 1.0</name>
+          <url>http://www.eclipse.org/org/documents/edl-v10.php</url>
+          <distribution>repo</distribution>
+          <file>eclipse distribution license - v 1.0 - edl-v10.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>jakarta.annotation</groupId>
+      <artifactId>jakarta.annotation-api</artifactId>
+      <version>2.1.1</version>
+      <licenses>
+        <license>
+          <name>EPL 2.0</name>
+          <url>http://www.eclipse.org/legal/epl-2.0</url>
+          <distribution>repo</distribution>
+          <file>epl 2.0 - epl-2.0.html</file>
+        </license>
+        <license>
+          <name>GPL2 w/ CPE</name>
+          <url>https://www.gnu.org/software/classpath/license.html</url>
+          <distribution>repo</distribution>
+          <file>gpl2 w_ cpe - license.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>jakarta.inject</groupId>
+      <artifactId>jakarta.inject-api</artifactId>
+      <version>2.0.1</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>jakarta.persistence</groupId>
+      <artifactId>jakarta.persistence-api</artifactId>
+      <version>3.1.0</version>
+      <licenses>
+        <license>
+          <name>Eclipse Public License v. 2.0</name>
+          <url>http://www.eclipse.org/legal/epl-2.0</url>
+          <distribution>repo</distribution>
+          <file>epl 2.0 - epl-2.0.html</file>
+          <comments>Standard Eclipse Licence</comments>
+        </license>
+        <license>
+          <name>Eclipse Distribution License v. 1.0</name>
+          <url>http://www.eclipse.org/org/documents/edl-v10.php</url>
+          <distribution>repo</distribution>
+          <file>eclipse distribution license - v 1.0 - edl-v10.html</file>
+          <comments>Standard Eclipse Distribution License</comments>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>jakarta.transaction</groupId>
+      <artifactId>jakarta.transaction-api</artifactId>
+      <version>2.0.1</version>
+      <licenses>
+        <license>
+          <name>EPL 2.0</name>
+          <url>http://www.eclipse.org/legal/epl-2.0</url>
+          <distribution>repo</distribution>
+          <file>epl 2.0 - epl-2.0.html</file>
+        </license>
+        <license>
+          <name>GPL2 w/ CPE</name>
+          <url>https://www.gnu.org/software/classpath/license.html</url>
+          <distribution>repo</distribution>
+          <file>gpl2 w_ cpe - license.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>jakarta.xml.bind</groupId>
+      <artifactId>jakarta.xml.bind-api</artifactId>
+      <version>4.0.0</version>
+      <licenses>
+        <license>
+          <name>Eclipse Distribution License - v 1.0</name>
+          <url>http://www.eclipse.org/org/documents/edl-v10.php</url>
+          <distribution>repo</distribution>
+          <file>eclipse distribution license - v 1.0 - edl-v10.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>javax.validation</groupId>
+      <artifactId>validation-api</artifactId>
+      <version>2.0.1.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>net.bytebuddy</groupId>
+      <artifactId>byte-buddy-agent</artifactId>
+      <version>1.14.4</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+          <comments>A business-friendly OSS license</comments>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>net.bytebuddy</groupId>
+      <artifactId>byte-buddy</artifactId>
+      <version>1.14.4</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+          <comments>A business-friendly OSS license</comments>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>net.minidev</groupId>
+      <artifactId>accessors-smart</artifactId>
+      <version>2.4.9</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+          <comments>All files under Apache 2</comments>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>net.minidev</groupId>
+      <artifactId>json-smart</artifactId>
+      <version>2.4.10</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+          <comments>All files under Apache 2</comments>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.antlr</groupId>
+      <artifactId>antlr4-runtime</artifactId>
+      <version>4.10.1</version>
+      <licenses>
+        <license>
+          <name>The BSD License</name>
+          <url>http://www.antlr.org/license.html</url>
+          <distribution>repo</distribution>
+          <file>the bsd license - license.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>2.20.0</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-to-slf4j</artifactId>
+      <version>2.20.0</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat.embed</groupId>
+      <artifactId>tomcat-embed-core</artifactId>
+      <version>10.1.8</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat.embed</groupId>
+      <artifactId>tomcat-embed-el</artifactId>
+      <version>10.1.8</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat.embed</groupId>
+      <artifactId>tomcat-embed-websocket</artifactId>
+      <version>10.1.8</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.apiguardian</groupId>
+      <artifactId>apiguardian-api</artifactId>
+      <version>1.1.2</version>
+      <licenses>
+        <license>
+          <name>The Apache License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>1.9.19</version>
+      <licenses>
+        <license>
+          <name>Eclipse Public License - v 2.0</name>
+          <url>https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>eclipse public license - v 2.0 - epl-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.assertj</groupId>
+      <artifactId>assertj-core</artifactId>
+      <version>3.24.2</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.angus</groupId>
+      <artifactId>angus-activation</artifactId>
+      <version>2.0.0</version>
+      <licenses>
+        <license>
+          <name>EDL 1.0</name>
+          <url>http://www.eclipse.org/org/documents/edl-v10.php</url>
+          <distribution>repo</distribution>
+          <file>eclipse distribution license - v 1.0 - edl-v10.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.glassfish.jaxb</groupId>
+      <artifactId>jaxb-core</artifactId>
+      <version>4.0.2</version>
+      <licenses>
+        <license>
+          <name>Eclipse Distribution License - v 1.0</name>
+          <url>http://www.eclipse.org/org/documents/edl-v10.php</url>
+          <distribution>repo</distribution>
+          <file>eclipse distribution license - v 1.0 - edl-v10.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.glassfish.jaxb</groupId>
+      <artifactId>jaxb-runtime</artifactId>
+      <version>4.0.2</version>
+      <licenses>
+        <license>
+          <name>Eclipse Distribution License - v 1.0</name>
+          <url>http://www.eclipse.org/org/documents/edl-v10.php</url>
+          <distribution>repo</distribution>
+          <file>eclipse distribution license - v 1.0 - edl-v10.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.glassfish.jaxb</groupId>
+      <artifactId>txw2</artifactId>
+      <version>4.0.2</version>
+      <licenses>
+        <license>
+          <name>Eclipse Distribution License - v 1.0</name>
+          <url>http://www.eclipse.org/org/documents/edl-v10.php</url>
+          <distribution>repo</distribution>
+          <file>eclipse distribution license - v 1.0 - edl-v10.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest</artifactId>
+      <version>2.2</version>
+      <licenses>
+        <license>
+          <name>BSD License 3</name>
+          <url>http://opensource.org/licenses/BSD-3-Clause</url>
+          <file>bsd license 3 - bsd-3-clause.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate.common</groupId>
+      <artifactId>hibernate-commons-annotations</artifactId>
+      <version>6.0.6.Final</version>
+      <licenses>
+        <license>
+          <name>GNU Library General Public License v2.1 or later</name>
+          <url>http://www.opensource.org/licenses/LGPL-2.1</url>
+          <distribution>repo</distribution>
+          <file>gnu library general public license v2.1 or later - lgpl-2.1.html</file>
+          <comments>See discussion at http://hibernate.org/community/license/ for more details.</comments>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate.orm</groupId>
+      <artifactId>hibernate-core</artifactId>
+      <version>6.2.2.Final</version>
+      <licenses>
+        <license>
+          <name>GNU Library General Public License v2.1 or later</name>
+          <url>https://www.opensource.org/licenses/LGPL-2.1</url>
+          <distribution>repo</distribution>
+          <file>gnu library general public license v2.1 or later - lgpl-2.1.html</file>
+          <comments>See discussion at https://hibernate.org/community/license/ for more details.</comments>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.logging</groupId>
+      <artifactId>jboss-logging</artifactId>
+      <version>3.5.0.Final</version>
+      <licenses>
+        <license>
+          <name>Apache License, version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-common</artifactId>
+      <version>1.8.21</version>
+      <licenses>
+        <license>
+          <name>The Apache License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.8.21</version>
+      <licenses>
+        <license>
+          <name>The Apache License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.8.21</version>
+      <licenses>
+        <license>
+          <name>The Apache License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.8.21</version>
+      <licenses>
+        <license>
+          <name>The Apache License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>13.0</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+          <comments>A business-friendly OSS license</comments>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.9.3</version>
+      <licenses>
+        <license>
+          <name>Eclipse Public License v2.0</name>
+          <url>https://www.eclipse.org/legal/epl-v20.html</url>
+          <file>eclipse public license v2.0 - epl-v20.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>5.9.3</version>
+      <licenses>
+        <license>
+          <name>Eclipse Public License v2.0</name>
+          <url>https://www.eclipse.org/legal/epl-v20.html</url>
+          <file>eclipse public license v2.0 - epl-v20.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-params</artifactId>
+      <version>5.9.3</version>
+      <licenses>
+        <license>
+          <name>Eclipse Public License v2.0</name>
+          <url>https://www.eclipse.org/legal/epl-v20.html</url>
+          <file>eclipse public license v2.0 - epl-v20.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.9.3</version>
+      <licenses>
+        <license>
+          <name>Eclipse Public License v2.0</name>
+          <url>https://www.eclipse.org/legal/epl-v20.html</url>
+          <file>eclipse public license v2.0 - epl-v20.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.platform</groupId>
+      <artifactId>junit-platform-commons</artifactId>
+      <version>1.9.3</version>
+      <licenses>
+        <license>
+          <name>Eclipse Public License v2.0</name>
+          <url>https://www.eclipse.org/legal/epl-v20.html</url>
+          <file>eclipse public license v2.0 - epl-v20.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.platform</groupId>
+      <artifactId>junit-platform-engine</artifactId>
+      <version>1.9.3</version>
+      <licenses>
+        <license>
+          <name>Eclipse Public License v2.0</name>
+          <url>https://www.eclipse.org/legal/epl-v20.html</url>
+          <file>eclipse public license v2.0 - epl-v20.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>5.3.1</version>
+      <licenses>
+        <license>
+          <name>The MIT License</name>
+          <url>https://github.com/mockito/mockito/blob/main/LICENSE</url>
+          <distribution>repo</distribution>
+          <file>the mit license - license.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-junit-jupiter</artifactId>
+      <version>5.3.1</version>
+      <licenses>
+        <license>
+          <name>The MIT License</name>
+          <url>https://github.com/mockito/mockito/blob/main/LICENSE</url>
+          <distribution>repo</distribution>
+          <file>the mit license - license.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.objenesis</groupId>
+      <artifactId>objenesis</artifactId>
+      <version>3.3</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.opentest4j</groupId>
+      <artifactId>opentest4j</artifactId>
+      <version>1.2.0</version>
+      <licenses>
+        <license>
+          <name>The Apache License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.ow2.asm</groupId>
+      <artifactId>asm</artifactId>
+      <version>9.3</version>
+      <licenses>
+        <license>
+          <name>BSD-3-Clause</name>
+          <url>https://asm.ow2.io/license.html</url>
+          <file>bsd-3-clause - license.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.reactivestreams</groupId>
+      <artifactId>reactive-streams</artifactId>
+      <version>1.0.4</version>
+      <licenses>
+        <license>
+          <name>MIT-0</name>
+          <url>https://spdx.org/licenses/MIT-0.html</url>
+          <distribution>repo</distribution>
+          <file>mit-0 - mit-0.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.skyscreamer</groupId>
+      <artifactId>jsonassert</artifactId>
+      <version>1.5.1</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>jul-to-slf4j</artifactId>
+      <version>2.0.7</version>
+      <licenses>
+        <license>
+          <name>MIT License</name>
+          <url>http://www.opensource.org/licenses/mit-license.php</url>
+          <distribution>repo</distribution>
+          <file>mit license - mit-license.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.7</version>
+      <licenses>
+        <license>
+          <name>MIT License</name>
+          <url>http://www.opensource.org/licenses/mit-license.php</url>
+          <distribution>repo</distribution>
+          <file>mit license - mit-license.html</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-autoconfigure</artifactId>
+      <version>3.1.0-20230518.223113-300</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-aop</artifactId>
+      <version>3.1.0-20230518.223113-300</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jpa</artifactId>
+      <version>3.1.0-20230518.223113-300</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-jdbc</artifactId>
+      <version>3.1.0-20230518.223113-300</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-json</artifactId>
+      <version>3.1.0-20230518.223113-300</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-logging</artifactId>
+      <version>3.1.0-20230518.223113-300</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-reactor-netty</artifactId>
+      <version>3.1.0-20230518.223113-300</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <version>3.1.0-20230518.223113-300</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-tomcat</artifactId>
+      <version>3.1.0-20230518.223113-300</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+      <version>3.1.0-20230518.223113-300</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-webflux</artifactId>
+      <version>3.1.0-20230518.223113-300</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter</artifactId>
+      <version>3.1.0-20230518.223113-300</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-test-autoconfigure</artifactId>
+      <version>3.1.0-20230518.223113-300</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-test</artifactId>
+      <version>3.1.0-20230518.223113-300</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot</artifactId>
+      <version>3.1.0-20230518.223113-300</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.data</groupId>
+      <artifactId>spring-data-commons</artifactId>
+      <version>3.1.0</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+          <comments>Copyright 2008-2020 the original author or authors.
+
+				Licensed under the Apache License, Version 2.0 (the "License");
+				you may not use this file except in compliance with the License.
+				You may obtain a copy of the License at
+
+				https://www.apache.org/licenses/LICENSE-2.0
+
+				Unless required by applicable law or agreed to in writing, software
+				distributed under the License is distributed on an "AS IS" BASIS,
+				WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+				implied.
+				See the License for the specific language governing permissions and
+				limitations under the License.</comments>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.data</groupId>
+      <artifactId>spring-data-jpa</artifactId>
+      <version>3.1.0</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+          <comments>Copyright 2008-2020 the original author or authors.
+
+				Licensed under the Apache License, Version 2.0 (the "License");
+				you may not use this file except in compliance with the License.
+				You may obtain a copy of the License at
+
+				https://www.apache.org/licenses/LICENSE-2.0
+
+				Unless required by applicable law or agreed to in writing, software
+				distributed under the License is distributed on an "AS IS" BASIS,
+				WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+				implied.
+				See the License for the specific language governing permissions and
+				limitations under the License.</comments>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aop</artifactId>
+      <version>6.0.9</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <distribution>repo</distribution>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aspects</artifactId>
+      <version>6.0.9</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <distribution>repo</distribution>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-beans</artifactId>
+      <version>6.0.9</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <distribution>repo</distribution>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>6.0.9</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <distribution>repo</distribution>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-core</artifactId>
+      <version>6.0.9</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <distribution>repo</distribution>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-expression</artifactId>
+      <version>6.0.9</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <distribution>repo</distribution>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jcl</artifactId>
+      <version>6.0.9</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <distribution>repo</distribution>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>6.0.9</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <distribution>repo</distribution>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-orm</artifactId>
+      <version>6.0.9</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <distribution>repo</distribution>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>6.0.9</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <distribution>repo</distribution>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-tx</artifactId>
+      <version>6.0.9</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <distribution>repo</distribution>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-web</artifactId>
+      <version>6.0.9</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <distribution>repo</distribution>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webflux</artifactId>
+      <version>6.0.9</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <distribution>repo</distribution>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+      <version>6.0.9</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+          <distribution>repo</distribution>
+          <file>apache license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.xmlunit</groupId>
+      <artifactId>xmlunit-core</artifactId>
+      <version>2.9.1</version>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.yaml</groupId>
+      <artifactId>snakeyaml</artifactId>
+      <version>1.33</version>
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+          <file>the apache software license, version 2.0 - license-2.0.txt</file>
+        </license>
+      </licenses>
+    </dependency>
+  </dependencies>
+</licenseSummary>
